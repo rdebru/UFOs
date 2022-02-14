@@ -49,6 +49,3 @@ d3.selectAll("#filter-btn").on("click", handleClick);
 // Build the table when the page loads
 buildTable(tableData);
 
-//Object.keys(filters).forEach(function(key) {
-//    filteredData = filteredData.filter(row => row[key] === filters[key]);
-//});
